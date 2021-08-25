@@ -1,0 +1,304 @@
+$fondo: url(../imagenespagina/9916513.jpg);
+
+$color-principal: white;
+$color-principal2: black;
+$color1: #ddccf0;
+$color2: #b299cf;
+$color3: #9775bf;
+
+$color-fondotexto: #4f2991;
+
+$color-caja2: #721331;
+
+$color-degrade1: #ddccf0;
+$color-degrade2: #9775bf;
+
+$font-titulos: Special Elite,sans-serif;
+
+$font-texto: Roboto Mono,monospace;
+
+html{
+	font-size: 62,5%;
+}
+
+body{
+	background-image: $fondo;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: $color-principal;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 60px;
+	top: 0,5px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+
+h2{
+	color: $color1;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+	position: relative;
+	top: 1px;
+}
+
+h3{
+	color: $color2;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 40px;
+	position: relative;
+	top: 1,5px;
+}
+
+h4{
+	color: $color3;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 30px;
+	position: relative;
+	top: 2px;
+}
+
+h1,h2,h3,h4{
+	font-family: $font-titulos;
+}
+
+
+#fotoproductos{
+	position: relative;
+}
+
+.cajas{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cajas ul li a{
+	color: $color-principal;
+	font-family: $font-texto;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#caja1:hover{
+	transform: rotateX(30deg);
+	height: 330px;
+	cursor: pointer;
+}
+
+
+
+#caja1{
+	margin: 10px;
+	box-sizing: border-box;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-fondotexto;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	transition: all 3s;
+}
+
+#caja2:hover{
+	transform: rotateX(30deg);
+	height: 330px;
+	cursor: pointer;
+}
+
+
+#caja2{
+	margin: 10px;
+	box-sizing: border-box;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-caja2;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	transition: all 3s;
+}
+
+#texto1{
+	height: 350px;
+	width: 50%;
+	color: black;
+	font-family: $font-texto;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: $color2;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-fondotexto;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.foto1{
+	padding: 20px;
+	margin: 10px;
+	background-color: #ddccf0;
+}
+
+#texto2{
+	height: 355px;
+	width: 50%;
+	color: black;
+	font-family: $font-texto;
+	font-size: 20px;
+	word-spacing: 2px;
+	background-color: $color2;
+	border-style: double;
+	border-width: 10px;
+	border-color: $color-fondotexto;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.foto2{
+	padding: 20px;
+	margin: 10px;
+	background-color: #ddccf0;
+}
+
+.caja1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.caja2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#almohadones{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#remeras{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#llaveros{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#barbijos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#sets{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#buzos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#etiquetas{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#stickers{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#tags{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#remerasybuzos{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#almohadonesper{
+	background-color: $color2;
+	padding: 10px;
+}
+
+#barbijosper{
+	background-color: $color2;
+	padding: 10px;
+}
+
+nav ul li{
+	color: $color1;
+	text-decoration: none;
+	margin-left: 50px;
+	list-style-type: none;
+	position: all;
+	font-size: 30px;
+}
+
+header{
+	color: $color-principal2;
+	font-family: $font-texto;
+	text-align: center;
+}
+
+p{
+	font-size: 14px;
+	font-family: $font-texto;
+	text-align: center;
+}
+
+#pregutna{
+	color: $color-principal;
+	font-family: $font-texto;
+	display: flex;
+	justify-content: center;
+}
+
+#titulo {
+	color: $color-principal2;
+	text-align: center;
+	text-transform: Capitalice;
+	font-size: 50px;
+}
+
+h5{
+	color: $color-principal2;
+	background-image: linear-gradient(to bottom, $color1, $color3);
+	font-family: $font-titulos;
+	text-align: center;
+	font-size: 35px;
+}
+
+h6{
+	color: $color-principal;
+	font-family: $font-texto;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+}
