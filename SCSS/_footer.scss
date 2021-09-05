@@ -1,4 +1,5 @@
 $color-principal: white;
+$color-principal2: black;
 $color1: #ddccf0;
 $color2: #b299cf;
 $color3: #9775bf;
@@ -17,6 +18,12 @@ $font-titulos: Special Elite,sans-serif;
 	justify-content: center;
 	justify-items: center;
 	flex-direction: row;
+}
+
+.final{
+	font-size: 16px;
+	font-family: $font-titulos;
+	color: $color-principal2;
 }
 
 footer ul li a{

@@ -24,6 +24,12 @@ nav ul li a:hover {
 html {
   font-size: 62,5%; }
 
+@media screen and (max-width: 376px) {
+  body {
+    margin-top: 4rem; }
+  header {
+    height: initial; } }
+
 body {
   background-image: url(../imagenespagina/9916513.jpg);
   background-repeat: repeat;
@@ -74,55 +80,45 @@ h1, h2, h3, h4 {
   position: relative; }
 
 .cajas {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center; }
 
-.cajas ul li a {
-  color: white;
-  font-family: Roboto Mono, monospace;
-  text-decoration: none;
-  font-size: 20px; }
-
-#caja1:hover {
+.caja1:hover {
   transform: rotateX(30deg);
-  height: 330px;
+  height: 220px;
   cursor: pointer; }
 
 #caja1 {
-  margin: 10px;
-  box-sizing: border-box;
+  height: 250px;
+  width: 350px;
+  margin: 5px;
   border-style: double;
   border-width: 10px;
   border-color: #4f2991;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
   transition: all 3s; }
 
-#caja2:hover {
+.caja2:hover {
   transform: rotateX(30deg);
-  height: 330px;
+  height: 220px;
   cursor: pointer; }
 
 #caja2 {
-  margin: 10px;
-  box-sizing: border-box;
+  height: 250px;
+  width: 350px;
+  margin: 5px;
   border-style: double;
   border-width: 10px;
   border-color: #721331;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
   transition: all 3s; }
 
+.parte1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
 #texto1 {
-  height: 350px;
-  width: 50%;
   color: black;
   font-family: Roboto Mono, monospace;
   font-size: 20px;
@@ -132,17 +128,21 @@ h1, h2, h3, h4 {
   border-width: 10px;
   border-color: #4f2991;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   box-sizing: border-box; }
 
-.foto1 {
-  padding: 20px;
-  margin: 10px;
-  background-color: #ddccf0; }
+#foto1 {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ddccf0;
+  justify-content: flex-end; }
+
+.parte2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row; }
 
 #texto2 {
-  height: 355px;
-  width: 50%;
   color: black;
   font-family: Roboto Mono, monospace;
   font-size: 20px;
@@ -152,12 +152,12 @@ h1, h2, h3, h4 {
   border-width: 10px;
   border-color: #4f2991;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   box-sizing: border-box; }
 
-.foto2 {
-  padding: 20px;
-  margin: 10px;
+#foto2 {
+  padding: 10px;
+  margin: 5px;
   background-color: #ddccf0; }
 
 .caja1 {
@@ -249,6 +249,7 @@ p {
   font-size: 50px; }
 
 h5 {
+  margin: 5px;
   color: black;
   background-image: linear-gradient(to bottom, #ddccf0, #9775bf);
   font-family: Special Elite, sans-serif;
@@ -271,6 +272,11 @@ h6 {
   justify-content: center;
   justify-items: center;
   flex-direction: row; }
+
+.final {
+  font-size: 16px;
+  font-family: Special Elite, sans-serif;
+  color: black; }
 
 footer ul li a {
   padding: 5px;

@@ -21,6 +21,19 @@ html{
 	font-size: 62,5%;
 }
 
+@media screen and (max-width: 376px) {
+	body{
+		margin-top: 4rem;
+	}
+	header{
+		height: initial;
+	}
+
+	
+}
+
+	
+
 body{
 	background-image: $fondo;
 	background-repeat: repeat;
@@ -80,66 +93,53 @@ h1,h2,h3,h4{
 	position: relative;
 }
 
-.cajas{
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
+.cajas {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
 
-.cajas ul li a{
-	color: $color-principal;
-	font-family: $font-texto;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-#caja1:hover{
+.caja1:hover{
 	transform: rotateX(30deg);
-	height: 330px;
+	height: 220px;
 	cursor: pointer;
 }
 
-
-
-#caja1{
-	margin: 10px;
-	box-sizing: border-box;
+#caja1 {
+	height: 250px;
+	width: 350px;
+	margin: 5px;
 	border-style: double;
 	border-width: 10px;
 	border-color: $color-fondotexto;
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-	align-items: center;
 	transition: all 3s;
 }
 
-#caja2:hover{
+.caja2:hover{
 	transform: rotateX(30deg);
-	height: 330px;
+	height: 220px;
 	cursor: pointer;
 }
 
-
-#caja2{
-	margin: 10px;
-	box-sizing: border-box;
+#caja2 {
+	height: 250px;
+	width: 350px;
+	margin: 5px;
 	border-style: double;
 	border-width: 10px;
 	border-color: $color-caja2;
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-	align-items: center;
 	transition: all 3s;
 }
 
+.parte1{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
 #texto1{
-	height: 350px;
-	width: 50%;
-	color: black;
+	color: $color-principal2;
 	font-family: $font-texto;
 	font-size: 20px;
 	word-spacing: 2px;
@@ -148,20 +148,25 @@ h1,h2,h3,h4{
 	border-width: 10px;
 	border-color: $color-fondotexto;
 	padding: 10px;
-	margin: 10px;
+	margin: 5px;
 	box-sizing: border-box;
 }
 
-.foto1{
-	padding: 20px;
-	margin: 10px;
+#foto1{
+	padding: 10px;
+	margin: 5px;
 	background-color: #ddccf0;
+	justify-content: flex-end;
+}
+
+.parte2{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
 }
 
 #texto2{
-	height: 355px;
-	width: 50%;
-	color: black;
+	color: $color-principal2;
 	font-family: $font-texto;
 	font-size: 20px;
 	word-spacing: 2px;
@@ -170,13 +175,13 @@ h1,h2,h3,h4{
 	border-width: 10px;
 	border-color: $color-fondotexto;
 	padding: 10px;
-	margin: 10px;
+	margin: 5px;
 	box-sizing: border-box;
 }
 
-.foto2{
-	padding: 20px;
-	margin: 10px;
+#foto2{
+	padding: 10px;
+	margin: 5px;
 	background-color: #ddccf0;
 }
 
@@ -252,6 +257,7 @@ h1,h2,h3,h4{
 	padding: 10px;
 }
 
+
 nav ul li{
 	color: $color1;
 	text-decoration: none;
@@ -288,6 +294,7 @@ p{
 }
 
 h5{
+	margin: 5px;
 	color: $color-principal2;
 	background-image: linear-gradient(to bottom, $color1, $color3);
 	font-family: $font-titulos;
