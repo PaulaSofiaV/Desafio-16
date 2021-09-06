@@ -50,7 +50,6 @@ h1{
 	text-align: center;
 	text-transform: Capitalice;
 	font-size: 60px;
-	top: 0,5px;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -63,7 +62,6 @@ h2{
 	text-transform: Capitalice;
 	font-size: 50px;
 	position: relative;
-	top: 1px;
 }
 
 h3{
@@ -72,7 +70,6 @@ h3{
 	text-transform: Capitalice;
 	font-size: 40px;
 	position: relative;
-	top: 1,5px;
 }
 
 h4{
@@ -81,7 +78,6 @@ h4{
 	text-transform: Capitalice;
 	font-size: 30px;
 	position: relative;
-	top: 2px;
 }
 
 h1,h2,h3,h4{
@@ -305,7 +301,7 @@ h5{
 h6{
 	color: $color-principal;
 	font-family: $font-texto;
-	font-size: 35px;
+	font-size: 30px;
 	display: flex;
 	justify-content: center;
 }
